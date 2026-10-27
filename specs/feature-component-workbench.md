@@ -45,9 +45,9 @@ The source checkouts may be discovered from the installed LUUNA-AI tool director
 
 | Component | Public repository | Commit | Package / entrypoint |
 | --- | --- | --- | --- |
-| Missions | `https://github.com/brodynelly/luuna-missions.git` | `e1b5db171892de653e7462e630d64d4964d01422` | `@luuna/missions-cli` 0.6.0 / `src/index.ts` |
-| Atlas | `https://github.com/brodynelly/luuna-atlas.git` | `76ad209daf404dd9a12aeaf46293e05e9f41e517` | `@luuna/atlas-cli` 0.11.0 / `src/cli.ts` |
-| Beacon | `https://github.com/brodynelly/luuna-beacon.git` | `072e482169e0d469c3744ec712222f8b310fa7da` | `@luuna/beacon-cli` 0.2.6 / `src/index.ts` |
+| Missions | `https://github.com/luuna-ai/luuna-missions.git` | `e1b5db171892de653e7462e630d64d4964d01422` | `@luuna/missions-cli` 0.6.0 / `src/index.ts` |
+| Atlas | `https://github.com/luuna-ai/luuna-atlas.git` | `76ad209daf404dd9a12aeaf46293e05e9f41e517` | `@luuna/atlas-cli` 0.11.0 / `src/cli.ts` |
+| Beacon | `https://github.com/luuna-ai/luuna-beacon.git` | `072e482169e0d469c3744ec712222f8b310fa7da` | `@luuna/beacon-cli` 0.2.6 / `src/index.ts` |
 
 Bun 1.4.3 is the current supported runtime, verified before CLI execution. A Node build/setup script can clone these repositories into ignored `.tools/components`, check out exact commits, verify identities, and run `bun install --frozen-lockfile --ignore-scripts` per component. Existing valid local source clones may be reused without mutation. Do not reset dirty checkouts. Setup can use a configured Bun executable or PATH and must give an actionable missing/version-mismatch message. Node remains a build/setup dependency, not an app runtime requirement; Bun is the explicit component-runtime prerequisite.
 
