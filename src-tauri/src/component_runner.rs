@@ -158,7 +158,7 @@ impl Components {
 				.to_owned();
 			if !["missions", "atlas", "beacon"].contains(&name.as_str())
 				|| pin.path != format!("components/{name}")
-				|| pin.repository != format!("https://github.com/brodynelly/luuna-{name}.git")
+				|| pin.repository != format!("https://github.com/luuna-ai/luuna-{name}.git")
 				|| pin.package != format!("@luuna/{name}-cli")
 				|| pin.commit.len() != 40
 				|| !pin

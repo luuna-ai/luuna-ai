@@ -1,6 +1,6 @@
 # LUUNA-AI 1.0.2 Beta
 
-[![Version](https://img.shields.io/badge/version-1.0.2%20Beta-blue.svg)](https://github.com/brodynelly/luuna-ai)
+[![Version](https://img.shields.io/badge/version-1.0.2%20Beta-blue.svg)](https://github.com/luuna-ai/luuna-ai)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Tauri](https://img.shields.io/badge/Tauri-v2-orange.svg)](https://tauri.app)
 
@@ -100,7 +100,7 @@
 
 ### Prebuilt installers
 
-Download from the [Releases page](https://github.com/brodynelly/luuna-ai/releases):
+Download from the [Releases page](https://github.com/luuna-ai/luuna-ai/releases):
 
 - **Windows** — `LUUNA-AI_<version>_x64-setup.exe` (NSIS installer)
 - **macOS** — `LUUNA-AI_<version>_x64.dmg` / `.app` (requires notarization to open without a Gatekeeper warning)
@@ -108,7 +108,7 @@ Download from the [Releases page](https://github.com/brodynelly/luuna-ai/release
 ### Build from source
 
 ```bash
-git clone https://github.com/brodynelly/luuna-ai.git
+git clone https://github.com/luuna-ai/luuna-ai.git
 cd luuna-ai
 npm install
 
